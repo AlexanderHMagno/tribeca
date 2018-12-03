@@ -1,0 +1,582 @@
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*configuracion*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+*{
+    box-sizing:border-box;
+    }
+    
+    :root{
+        --brand-color:#3498db;
+        --brand-shadow: #246A99;
+    }
+    Html{
+    
+    Background-color: rgb(255, 255, 255);
+    Color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size:20px;
+    text-rendering: optimizeLegibility;
+    }
+    
+    .row{
+        max-width: 1240px;
+        margin:auto;
+    }
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Heading*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+h1,h2,h3,h4{ 
+    text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+margin-bottom: 20px;
+
+}
+
+h1{
+  color:rgb(255, 255, 255);
+  font-size:2rem; 
+}
+
+h2{
+      padding-top: 80px;
+      color:rgb(0, 0, 0);
+      font-size:1.3rem;
+      text-align: center; 
+   
+}
+
+h3{
+  
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    
+ 
+}
+
+h4{
+    color: var(--brand-color);
+    font-size:0.8rem;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Encabezado*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    header{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.579),rgba(0, 0, 0, 0.579)), url("Imagenes/casa2.jpg");
+        background-size:cover;
+        background-position: center;
+        height: 100vh;
+        
+    }
+
+nav{ 
+
+    width: 80%;
+    margin:auto;
+    
+    padding-top:20px;
+}
+
+    .logo{
+        float:left;
+        width: 10%;
+        min-width: 100px;
+              
+    }
+
+    .nav-principal{
+padding-top:40px;
+        float: right;
+
+    }
+
+    .nav-principal li{ 
+    display: inline-block;
+    
+    
+    }
+
+    
+
+    .nav-principal li a{
+        text-decoration: none;
+        color:white;
+        margin-left:40px;
+        text-transform: uppercase;
+        border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s;
+    padding-bottom: 10px;
+    }
+
+    .nav-principal li a:hover{ 
+        display: inline-block;
+        border-bottom: 1px solid var(--brand-color);
+        
+        
+        }
+
+
+
+    .encabezado-box{
+        position: absolute;
+        width: 80%;
+        top:50%;
+        margin:auto;
+        left: 0;
+        right: 0;
+                   }
+
+
+.btn{
+    display: inline-block;
+    padding:10px 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid var(--brand-color);
+    border-radius: 100px;
+    transition: background-color 0.3s,border 0.3s,color 0.3s; 
+}
+
+.btn-completo{
+    background-color: var(--brand-color);
+    margin-right: 20px;
+}
+
+.btn-transparente{
+   color: var(--brand-color);
+}
+
+
+.btn:hover{
+background-color: var(--brand-shadow);
+border: 1px solid var(--brand-shadow)
+}
+
+.btn-transparente:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Caracteristicas*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.caracteristicas{
+    display:block;
+    color:black;
+    width: 80%;
+    margin:auto;
+    overflow: auto;
+}
+
+.c-paragrafo{
+
+    font-size:0.9rem;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h2::after{
+    display: block;
+    content: "";
+    width:200px;
+    margin: 20px auto;
+       
+    height: 2px;
+    background-color: var(--brand-color)
+}
+
+
+
+.c-info .col{
+padding:10px;
+    }
+
+.c-info p{
+
+font-size:0.8rem;
+line-height: 135%;
+text-align: left;
+}
+.c-info i{
+    width: 80%;
+    margin:auto;
+    font-size:2.5rem;
+    color:var(--brand-color);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Destacadas*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.vivienda-destacadas{
+    overflow: auto;
+}
+
+.foto-casas{
+
+    padding-top: 60px;
+}
+
+.f-container{
+  width: 100%;
+  list-style-type: none;
+  background-color: black;
+}
+
+.f-container li{
+    float: left;
+    width: 25%;
+    overflow: hidden;
+  }
+
+
+.f-container li a{
+  display: block;
+  width: 100%;
+  position: relative;
+  height: 0;
+  padding: 56.25% 0 0 0;
+  overflow: hidden;
+  cursor: help;
+  background-color: black;
+}
+
+
+.f-container img
+{
+  position: absolute;
+  display: block;
+  max-width: 100%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  transform: scale(1.15);
+  opacity: 0.7;
+  transition: transform 1s,opacity 1s;
+}
+
+.f-container img:hover
+{
+transform:scale(1);
+opacity: 1;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*DRegistra tu inmueble*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.registra{
+
+    width: 100%;
+    margin: auto;
+    color:black;
+    overflow: auto;
+}
+
+
+.r-container{
+
+    padding-top: 40px;
+}
+
+.r-pasos{
+    float: left;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.r-pasos i{
+
+    color: var(--brand-color);
+    width: 50px;
+    font-size: 1.2rem;
+    
+}
+
+
+
+.r-pasos p{
+
+    padding: 10px 0px;
+    font-size: 0.8rem;
+}
+
+.r-pasos a{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    width: 80%;
+    
+}
+
+
+.registra .celular{
+    display: block;
+    float: right;
+    width: 20%;
+    margin-right: 50px;
+    
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Ciudad*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.ciudad{
+    overflow: hidden;
+}
+
+.ciudad-container{
+    padding-top:
+    60px;
+}
+
+.ciudad ul{
+
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ciudad .cuartos{
+    width: 20%;
+    float: left;
+    margin-left:4%;
+}
+
+.ciudad li img{
+    width: 100%;
+}
+
+.ciudad li a{
+    display: block;
+    position: relative;
+    padding: 56.25% 0 0 0;
+    overflow: hidden;
+    cursor: help;
+    background-color: black;
+  }
+  
+.ciudad img
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+ 
+}
+
+.cuartos-internos i{
+
+    color: var(--brand-color);
+    width: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+.cuartos-internos p{
+
+    padding: 10px 0px;
+    font-size: 0.8rem;
+
+}
+
+.cuartos-internos{
+    color:black;
+    width: 90%;
+}
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Plan*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.plan{
+    overflow: hidden;
+    background-color: #f7f7f7;
+    color:black;
+    padding-bottom: 60px;
+}
+
+.plan-container{
+    padding-top:
+    60px;
+    width: 70%;
+    
+    margin: auto;
+}
+
+
+
+.plan-module{
+    width: 25%;
+    background-color: white;
+    border:1px solid rgb(241, 241, 241);
+    display: inline-block;
+    margin-left: 6.25%;
+    box-shadow: 1px 1px 10px var(--brand-color);
+    
+}
+
+.plan-titulo{
+
+    width: 100%;
+    height: 30%;
+    background: var(--brand-color);
+    color:white;
+    margin-bottom: 20px;
+}
+
+.dorado{color:gold}
+
+
+.plan-module p{
+    font-size: 0.8rem;
+    padding:10px 5px;
+    
+}
+
+.plan-titulo h3{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+.plan-cuerpo i{
+    width: 30px;
+    text-align: center;
+    color:gold;
+    
+}
+
+.plan-cuerpo a{
+    display:block;
+    width: 60%;
+    margin: 15px auto;
+    text-align: center;
+    
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*footer*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+footer{
+   
+    overflow: hidden;
+    background-color: #1b1b1b;
+    color:rgb(216, 216, 216);
+    position: relative;
+    height: 30vh;
+    font-size: 0.7rem;
+}
+
+.politicas{
+
+    position: absolute;
+    width: 80%;
+    left: 0;
+    right: 0;
+    top:30px;
+    margin:auto;
+   
+    text-align: center;
+   
+}
+
+.politicas::after{
+    display: block;
+    content: "";
+    width:200px;
+    margin: 20px auto;
+       
+    height: 2px;
+    background-color:rgb(231, 230, 230);
+
+}
+
+.politicas li{
+    display: inline-block;
+    padding-left:20px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.politicas li:hover{
+    color: var(--brand-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer .socios{
+    position: absolute;
+    left:20%;
+    top: 40%;
+    width: 60%;
+}
+
+.socios img{
+    width: 80px;
+    
+    cursor: pointer;
+}
+
+
+.social-media{
+    position: absolute;
+    right:20%;
+    top: 45%;
+    text-align: center;
+    
+}
+
+.social-media p{
+    padding: 15px 10px;
+    display: inline;
+
+}
+
+.social-media i{
+    width: 20px;
+    transition: color 1s;
+}
+
+.social-media i:hover{
+    color: var(--brand-color);
+    cursor: pointer;
+}
