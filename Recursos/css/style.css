@@ -78,7 +78,7 @@ h4{
 /*Encabezado*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     header{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.579),rgba(0, 0, 0, 0.579)), url("Imagenes/casa2.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.579),rgba(0, 0, 0, 0.579)), url("Imagenes/Casa2.jpg");
         background-size:cover;
         background-position: center;
         height: 100vh;
