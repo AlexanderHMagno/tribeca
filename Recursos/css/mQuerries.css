@@ -1,0 +1,348 @@
+
+@media only screen and ( max-width :1024px) {
+
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*configuracion*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    Html{
+        font-size:18px;
+        }
+        :root{
+            --brand-color:#2ecc71;
+            --brand-shadow: #12512D;
+        }
+        /*================
+        Registra
+        =================*/
+
+        .registra .celular{
+            display: block;
+            float: right;
+            width: 30%;
+            margin-right: 50px;
+        }
+
+      
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Ciudad*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.cuartos-internos p{
+
+    text-align: center;
+    line-height: 20px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Plan*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.plan-container{
+    width: 80%;
+    
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*footer*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.politicas{
+    width: 90%}
+
+}
+
+
+
+
+@media only screen and ( max-width :768px) {
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*configuracion*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    Html{
+        font-size:16px;
+        }
+        :root{
+            --brand-color:#9b59b6;
+            --brand-shadow: #3E2348;
+        }
+
+
+
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Caracteristicas*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.caracteristicas{
+
+    width: 95%;
+
+}
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*DRegistra tu inmueble*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.r-pasos{
+    width: 70%;
+    margin-left: 20px;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Ciudad*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.ciudad .cuartos{
+    width: 22%;
+    float: left;
+    margin-left:2.5%;
+}
+.cuartos-internos i{
+
+    
+    float: left;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+.cuartos-internos p{
+line-height: 25px;
+
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Plan*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.plan-container{
+    
+    width: 100%;
+    
+    
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*footer*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.politicas{
+line-height: 30px;
+}
+
+
+.politicas::after{
+    margin: 5px auto;
+}
+
+
+footer .socios{
+    left: 15%;
+    top: 50%;
+    width: 60%;
+}
+
+
+.social-media{
+top:60%;
+
+}
+}
+
+
+
+@media only screen and ( max-width :480px) {
+
+
+    
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*configuracion*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+Html{
+    font-size:16px;
+    }
+    :root{
+        --brand-color:#e74c3c;
+        --brand-shadow: #8A2D24;
+    }
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Heading*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+h1{
+    color:rgb(255, 255, 255);
+    font-size:1.5rem; 
+  }
+
+
+  h2{
+    padding-top: 50px;
+  }
+
+  .encabezado-box{
+      width: 90%;
+
+  }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Encabezado*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+nav{
+    width: 90%;
+}
+
+.nav-principal{
+
+    float: none;
+
+}
+
+.nav-principal li a{
+
+    margin-left:10px;
+    font-size: 0.8rem;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Caracteristicas*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.caracteristicas{
+
+    text-align: center;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Destacadas*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.f-container li{
+    width: 50%;
+    
+  }
+
+
+ /*================
+ Registra
+ =================*/
+
+        .registra .celular{
+            
+            float: right;
+            width: 50%;
+            margin-right: 10px;
+        }
+
+        .r-pasos{
+            width: 90%;
+            margin-left: 10px;
+        }
+        
+        
+.r-pasos p{
+
+    padding: 5px 0px;
+    
+}
+        
+
+.r-pasos a{
+    
+    margin-top: 10px;
+    
+    
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Ciudad*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.ciudad .cuartos{
+    width: 47%;
+    float: left;
+    margin-left:2%;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Plan*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.plan-container{
+    padding-top:
+    10px; }
+
+
+.plan-module{
+    width: 32%;
+margin:0px;
+    }
+
+.plan-cuerpo p{
+    display: none;
+}
+
+.plan-cuerpo a{
+    width: 60%;
+    margin: 15px auto;
+    text-align: center;
+    padding: 0px 0px;
+    
+}
+
+.plan-titulo{
+
+    margin-bottom: 0px;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*footer*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    
+.politicas{
+    line-height: 20px;
+    width: 95%;
+    }
+    
+    
+.politicas li{
+    
+    padding-left:10px;}
+    
+    .politicas::after{
+        display: none;
+    }
+    
+    
+    footer .socios{
+        left: 5%;
+        top: 50%;
+        width: 60%;
+    }
+    
+    .socios img{
+        width: 32%;
+    }
+    
+    .social-media{
+   right: 5%;
+    
+    }
+}

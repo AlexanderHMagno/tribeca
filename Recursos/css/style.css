@@ -89,7 +89,6 @@ nav{
 
     width: 80%;
     margin:auto;
-    
     padding-top:20px;
 }
 
@@ -354,8 +353,7 @@ opacity: 1;
 }
 
 .ciudad-container{
-    padding-top:
-    60px;
+    padding-top:    60px;
 }
 
 .ciudad ul{
@@ -524,7 +522,6 @@ footer{
     content: "";
     width:200px;
     margin: 20px auto;
-       
     height: 2px;
     background-color:rgb(231, 230, 230);
 
